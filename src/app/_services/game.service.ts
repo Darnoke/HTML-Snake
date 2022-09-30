@@ -152,7 +152,7 @@ export class GameService {
       this.fields[i] = {type: FieldType.empty};
     }
     this.updateFields();
-    setTimeout(() => this.startGame(), 1500);
+    setTimeout(() => this.startGame(), 3500);
   }
 
   getScore() {
