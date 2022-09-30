@@ -1,0 +1,30 @@
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #252525;
+    color: #eeeeee;
+    width: 100%;
+    height: 100vh;
+    flex-flow: wrap;
+}
+
+.field {
+    background-color: #565656;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    float: left;
+}
+
+.new-line {
+    clear: both;
+}
+
+.score {
+    width: 200px;
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+    font-size: 35px;
+}

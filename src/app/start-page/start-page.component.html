@@ -1,0 +1,10 @@
+<div class="box">
+    <div class="holder">
+        <div *ngFor="let field of fields; let i = index" class="field" [class.new-line]="i % 7 === 0"
+         [ngStyle] = "{'background-color': field.type | fieldColor}">
+        </div>
+    </div>
+    <div class="score">
+        SCORE: {{ getScore() }}
+    </div>
+</div>
