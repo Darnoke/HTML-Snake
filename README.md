@@ -1,4 +1,6 @@
-# RxjsTest
+# HTML-Snake
+
+![image](https://user-images.githubusercontent.com/45393963/193268596-dece1473-3d21-4454-8339-09ee7e33ea35.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
 
